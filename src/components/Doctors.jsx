@@ -51,22 +51,22 @@ const Doctors = () => {
                   <h4>{`${element.firstName} ${element.lastName}`}</h4>
                   <div className="details">
                     <p>
-                      Email:<span>{element.email}</span>
+                      Email: <span>{element.email}</span>
                     </p>
                     <p>
-                      Phone:<span>{element.phone}</span>
+                      Phone: <span>{element.phone}</span>
                     </p>
                     <p>
-                      DoB:<span>{element.dob.substring(0, 10)}</span>
+                      DoB: <span>{element.dob.substring(0, 10)}</span>
                     </p>
                     <p>
-                      Department:<span>{element.doctrDptmnt}</span>
+                      Department: <span>{element.doctrDptmnt}</span>
                     </p>
                     <p>
-                      Aadhar:<span>{element.aadhar}</span>
+                      Aadhar: <span>{element.aadhar}</span>
                     </p>
                     <p>
-                      Gender:<span>{element.gender}</span>
+                      Gender: <span>{element.gender}</span>
                     </p>
                   </div>
                 </div>
