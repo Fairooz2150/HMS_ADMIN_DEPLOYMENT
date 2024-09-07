@@ -65,12 +65,12 @@ const Sidebar = () => {
         className={show ? "show sidebar" : "sidebar"}
       >
         <div className="links">
-          <TiHome onClick={gotoHome} />
-          <FaUserDoctor onClick={gotoDoctors} />
-          <MdAddModerator onClick={gotoAddNewAdmin} />
-          <IoPersonAddSharp onClick={gotoAddNewDoctor} />
-          <AiFillMessage onClick={gotoMessages} />
-          <RiLogoutBoxFill onClick={handleLogout} />
+          <TiHome title="Home" onClick={gotoHome} />
+          <FaUserDoctor title="Doctors" onClick={gotoDoctors} />
+          <MdAddModerator title="Add new Admin" onClick={gotoAddNewAdmin} />
+          <IoPersonAddSharp title="Register new Doctor" onClick={gotoAddNewDoctor} />
+          <AiFillMessage title="Messages" onClick={gotoMessages} />
+          <RiLogoutBoxFill title="Logout" onClick={handleLogout} />
         </div>
       </nav>
       <div
